@@ -1,0 +1,58 @@
+/* CSS files add styling rules to your content */
+* {
+                box-sizing: border-box;
+              }
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+} 
+.left {
+  justify-content: center;
+  width: 28%;
+}
+.middle {
+  justify-content: center;
+  width: 28%;
+}
+.right {
+  justify-content: center;
+  width:28%;
+}
+.flex4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+} 
+.one {
+  justify-content: center;
+  width: 45%;
+}
+.two {
+  justify-content: center;
+  width: 45%;
+}
+
+
+            body {
+                background-color: black;
+                margin: 1vw 5vw;
+				color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+            }
+  img {
+    justify-content: center;
+	max-width: 90%;
+  }
+            p {
+                color: white;
+                font-family: 'Press Start 2P', cursive;
+                font-size: ;
+            }

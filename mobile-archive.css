@@ -1,0 +1,54 @@
+.flex3 {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+}
+              * {
+                box-sizing: border-box;
+              }
+.left {
+  justify-content: center;
+}
+.middle {
+  justify-content: center;
+}
+.right {
+  justify-content: center;
+}
+.flex4 {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+}
+              * {
+                box-sizing: border-box;
+              }
+.one {
+  justify-content: center;
+}
+.two {
+  justify-content: center;
+}
+
+            body {
+                background-color: black;
+                margin: 1vw 5vw;
+				color: white;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.2em;
+            }
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p {
+                color: white;
+                font-family: 'Press Start 2P', cursive;
+                font-size: ;
+            }

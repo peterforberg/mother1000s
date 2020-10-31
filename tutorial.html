@@ -1,0 +1,57 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (min-width: 701px)" href="desktop.css" />
+        <link rel="stylesheet" media="screen and (max-width: 700px)" href="mobile.css" />
+
+        <script src="countdown.js"></script>
+        <script src="tutorial.js"></script>
+        <title>MOTHER OF 1000s</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        
+        <div class="flex">
+            <div class="left">
+              <p>
+              </p>
+              <div id="waterb" >
+              <a href></a>
+              <button type="button" onclick="gameDisplay()" class="button"><img src="images\water.png" class="input"></button><p></p>
+              </div>
+              <div id="lightb">
+              <button type="button" onclick="gameDisplay()" class="button" value="LIGHT"><img src="images\light.png" class="input"></button><p></p>
+              </div>
+              <div id="snipb">
+              <button type="button" onclick="gameDisplay()" class="button" value="SNIP"><img src="images\snip.png" class="input"></button><p></p>
+              </div>
+              <div id="ignoreb">
+              <button type="button" onclick="gameDisplay()" class="button"><img src="images\ignore.png" class="input"></button><p></p>
+              </div>
+            </div>
+          
+          <div class="middle">
+          <img id="display" src="images\plants.gif">
+          <p id="text" style="line-height:1.2em">Meet your choe! Your choe is a simple but delicate organism. Just like you, it requires love and attention -- but not too much! Together, we can help it grow. </p>
+          <div id="next"><button type="button" onclick="tutorial(); gameDisplay()" class="button">NEXT</button><p>
+            </div>
+		  </div>
+		  
+          <div class="right" style="line-height:1.2em">
+		  Day: 1 <p></p>
+          Water: 0 <br>
+          Warmth: 0 <br>
+          Children: 0 <br>
+          Joy: 0 <br>
+          </div>
+      </div>
+	  <footer style="display:flex; justify-content:center; padding:20px; color:white">
+	  <a href="index.html" style="color:white">HOME</a>&nbsp;
+	  <a href="game.html" style="color:white">YOUR CHOE</a>&nbsp;
+	  <a href="archive.html" style="color:white">DAILY ARCHIVE</a>&nbsp;
+	  </footer>
+    </body>
+</html>

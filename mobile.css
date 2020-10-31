@@ -1,0 +1,59 @@
+.flex {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2em;
+}
+              * {
+                box-sizing: border-box;
+              }
+.left {
+  order: 2;
+  justify-content: center;
+}
+.middle {
+  order: 1;
+  justify-content: center;
+}
+.right {
+  order: 3;
+  justify-content: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+}             
+            
+
+            .button {
+                background-color: black;
+                border: none;
+                color: white;
+                font-family: 'Press Start 2P', cursive;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                margin: auto;
+            }
+            .buttons {
+                text-align: center;
+            }
+            
+            .input {
+            width: 60%;
+            }
+            body {
+                background-color: black;
+                margin: 1vw 5vw;
+            }
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p {
+                color: white;
+                font-family: 'Press Start 2P', cursive;
+                font-size: ;
+            }
